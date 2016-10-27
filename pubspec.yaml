@@ -1,0 +1,15 @@
+name: socket_system
+version: 0.9.0
+author: Vostrikov Vitaliy <rasart.pro@gmail.com>
+description: 'System of clients socket connections'
+homepage: https://github.com/WhisperEngine/SocketSystem
+environment:
+  sdk: '>=1.18.1 <2.0.0'
+dependencies:
+  event_system: 
+    version: '^1.2.0'
+    git: 'https://github.com/WhisperEngine/EventSystem.git'
+  web_socket_channel: '^1.0.4'
+  uuid: '^0.5.3'
+dev_dependencies:
+  test: '^0.12.15+11'
